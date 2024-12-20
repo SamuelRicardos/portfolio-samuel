@@ -4,11 +4,11 @@ import { HomeComponent } from './components/home/home.component';
 export const routes: Routes = [
   {
     path: "",
-    redirectTo: "home",
+    redirectTo: "sobremim",
     pathMatch: "full" // Garante que a rota vazia seja considerada
 },
   {
-    path: 'home',
+    path: 'sobremim',
     component: HomeComponent
   }
 ];

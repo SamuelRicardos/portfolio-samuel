@@ -1,3 +1,11 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0px 20px; /* Adiciona um padding para criar um espaço */
+  background: linear-gradient(135deg, #000000, #9e00ff); /* Ajusta o ângulo */
+}
+
 .cabecalho {
 	display: flex;
 	justify-content: space-between;
@@ -53,7 +61,7 @@ a::after {
 	min-height: calc(100vh - 125px);
 	align-items: center;
 	gap: 50px;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .home .informacoes {
